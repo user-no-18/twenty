@@ -287,6 +287,12 @@ msgstr "{0} OAuth-ը դեռևս չի կարգաբերվել ձեր սերվեր�
 msgid "{0} of {1}"
 msgstr "{0} / {1}"
 
+#. js-lingui-id: taLu6Q
+#. placeholder {0}: formatNumber(audiencePreview.trackingRefused)
+#: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
+msgid "{0} opted out of email tracking, their clicks are not recorded"
+msgstr ""
+
 #. js-lingui-id: BzvoVr
 #. placeholder {0}: formatNumber(counts.topicUnsubscribed)
 #: src/modules/activities/emails/utils/buildExcludedRecipientReasons.ts
@@ -3302,6 +3308,11 @@ msgstr "րոպեներին {remainingValues}-ին և {0}-ին"
 msgid "at the top of the hour"
 msgstr "ժամի սկզբին"
 
+#. js-lingui-id: LtKowV
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
+msgid "Attach conversation"
+msgstr ""
+
 #. js-lingui-id: x9ecE4
 #: src/modules/activities/files/hooks/useAttachFileRelatedRecordAction.tsx
 msgid "Attach file"
@@ -3315,6 +3326,26 @@ msgstr "Կցել ֆայլը"
 #: src/modules/side-panel/pages/compose-email/components/SidePanelComposeEmailPage.tsx
 msgid "Attach files"
 msgstr "Կցել ֆայլեր"
+
+#. js-lingui-id: 4xOjp/
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Attached this conversation to a record"
+msgstr ""
+
+#. js-lingui-id: DCyq1H
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Attached this conversation to the {objectLabel}"
+msgstr ""
+
+#. js-lingui-id: e9I63P
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Attaching this conversation to a record"
+msgstr ""
+
+#. js-lingui-id: 0/s5dI
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Attaching this conversation to the {objectLabel}"
+msgstr ""
 
 #. js-lingui-id: w/Sphq
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionEmailBase.tsx
@@ -4746,6 +4777,11 @@ msgstr "Վերահսկման գրանցամատյանների համար պահ�
 msgid "ClickHouse Not Configured"
 msgstr "ClickHouse–ը կարգավորված չէ"
 
+#. js-lingui-id: GhPnTR
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribersList.tsx
+msgid "Clicks only"
+msgstr ""
+
 #. js-lingui-id: b9Y4up
 #: src/modules/settings/security/components/sso/SettingsSsoOidcForm.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
@@ -5588,6 +5624,16 @@ msgstr "Զրույց"
 msgid "Conversations"
 msgstr "Զրույցներ"
 
+#. js-lingui-id: 5dVEtZ
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
+msgid "Conversations linked to this record will appear here."
+msgstr ""
+
+#. js-lingui-id: SXWEJM
+#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
+msgid "Conversations tab"
+msgstr ""
+
 #. js-lingui-id: HRGl1X
 #: src/modules/settings/members/components/MemberNameFields.tsx
 #: src/modules/settings/profile/components/NameFields.tsx
@@ -5779,6 +5825,16 @@ msgstr "Արժեքը մեկ միլիոն թոքենի դիմաց (USD)"
 msgid "Cost per million tokens for cached input (USD)"
 msgstr "Արժեքը մեկ միլիոն թոքենի դիմաց քեշավորված ներմուծման համար (USD)"
 
+#. js-lingui-id: lvWtM4
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Could not attach this conversation to a record"
+msgstr ""
+
+#. js-lingui-id: 3KqAq7
+#: src/modules/ai/utils/tool-display/get-tool-display-message.ts
+msgid "Could not attach this conversation to the {objectLabel}"
+msgstr ""
+
 #. js-lingui-id: T8ACay
 #: src/pages/settings/applications/components/SettingsClaimApplicationSection.tsx
 msgid "Could not claim this application"
@@ -5944,6 +6000,11 @@ msgstr "Հաշվել բոլորը"
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
 msgid "Count by"
 msgstr "Հաշվել ըստ"
+
+#. js-lingui-id: EEqRLn
+#: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
+msgid "Count clicks by routing campaign links through Twenty before the original page."
+msgstr ""
 
 #. js-lingui-id: vQJINq
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
@@ -7548,6 +7609,7 @@ msgid "Destroy Records on All Objects"
 msgstr "Վերջնական ջնջել բոլոր օբյեկտների գրառումները"
 
 #. js-lingui-id: FOcBn3
+#: src/modules/ai/components/AiChatThreadItemMenu.tsx
 #: src/modules/object-record/record-field-list/record-detail-section/relation/components/RecordDetailRelationRecordsListItem.tsx
 msgid "Detach"
 msgstr "Ապամիացնել"
@@ -8335,10 +8397,10 @@ msgstr "Էլփոստի հասցե"
 msgid "Email Address"
 msgstr "Էլփոստի հասցե"
 
-#. js-lingui-id: Pvk9fk
+#. js-lingui-id: M08Fhf
 #: src/modules/settings/unsubscribers/components/SettingsUnsubscribersList.tsx
-msgid "Email addresses that will no longer receive campaign emails"
-msgstr "Էլփոստի հասցեներ, որոնք այլևս չեն ստանա արշավների նամակներ"
+msgid "Email addresses that opted out of campaign emails, a topic, or click tracking"
+msgstr ""
 
 #. js-lingui-id: AoN898
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
@@ -8417,6 +8479,12 @@ msgstr "Աջակցություն էլփոստով"
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionCreateCalendarEvent.tsx
 msgid "Email the attendees an invitation"
 msgstr "Ուղարկել հրավեր նամակ մասնակիցներին"
+
+#. js-lingui-id: +V3dhy
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+msgid "Email tracking"
+msgstr ""
 
 #. js-lingui-id: LimKOG
 #: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
@@ -9381,6 +9449,7 @@ msgstr "Ընդլայնել կողային վահանակը"
 
 #. js-lingui-id: 4bQAS8
 #: src/modules/advanced-text-editor/components/FormAdvancedTextFieldInput.tsx
+#: src/modules/object-record/record-field/ui/form-types/components/FormRecordRichTextFieldInput.tsx
 msgid "Expand to full screen"
 msgstr "Բացել ամբողջ էկրանով"
 
@@ -10258,6 +10327,11 @@ msgstr "Ֆիլտրի խմբի կանոնների տարբերակներ"
 msgid "Filter limits"
 msgstr "Զտել սահմանաչափերը"
 
+#. js-lingui-id: iSXrBT
+#: src/modules/settings/unsubscribers/components/filter-dropdown/SettingsUnsubscribersFilterDropdown.tsx
+msgid "Filter opt-outs"
+msgstr ""
+
 #. js-lingui-id: FG3LyE
 #: src/modules/ai/components/suggested-prompts/contextual-suggested-prompts.ts
 msgid "Filter this view"
@@ -10272,11 +10346,6 @@ msgstr "Զտել այս տեսքը՝ ցուցադրելու միայն "
 #: src/modules/page-layout/widgets/timeline/components/WidgetActionTimelineFilter.tsx
 msgid "Filter timeline"
 msgstr "Զտել ժամանակագիծը"
-
-#. js-lingui-id: j/O9Sh
-#: src/modules/settings/unsubscribers/components/filter-dropdown/SettingsUnsubscribersFilterDropdown.tsx
-msgid "Filter unsubscribers"
-msgstr "Զտել հրաժարվածներին"
 
 #. js-lingui-id: iTs6Ck
 #: src/modules/object-core/commands/hooks/useCoreObjectsCommands.ts
@@ -12469,6 +12538,12 @@ msgstr "Կանբան վիջեթ"
 msgid "Keep executing the next nodes even if this one fails"
 msgstr "Շարունակել գործարկել հաջորդ հանգույցները, նույնիսկ եթե սա ձախողվի"
 
+#. js-lingui-id: AHYRpC
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+msgid "Keep tracking my clicks"
+msgstr ""
+
 #. js-lingui-id: 7sMeHQ
 #: src/modules/workflow/workflow-steps/workflow-actions/http-request-action/components/KeyValuePairInput.tsx
 msgid "Key"
@@ -13294,6 +13369,7 @@ msgstr "Բեռնվում է..."
 #. js-lingui-id: Pwqkdw
 #: src/modules/ai/utils/getAiChatUsageLabel.ts
 #: src/modules/object-record/record-sharing/components/RecordSharingDropdownContent.tsx
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
 #: src/modules/settings/billing/components/internal/SettingsBillingLimitSpenderOptionList.tsx
 msgid "Loading…"
 msgstr "Բեռնվում է…"
@@ -13768,6 +13844,11 @@ msgstr "Ես"
 #: src/modules/settings/roles/role-permissions/object-level-permissions/record-level-permissions/components/SettingsRolePermissionsObjectLevelRecordLevelPermissionMeValueSelect.tsx
 msgid "Me (User ID)"
 msgstr "Ես (User ID)"
+
+#. js-lingui-id: HVaz6o
+#: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
+msgid "Measure engagement on the campaigns this workspace sends"
+msgstr ""
 
 #. js-lingui-id: agPptk
 #: src/modules/ai/utils/getAiModelEffortLabel.ts
@@ -14944,6 +15025,12 @@ msgstr "Բովանդակություն չկա"
 #: src/modules/ai/components/RoutingDebugDisplay.tsx
 msgid "No context was provided for this request"
 msgstr "Այս հարցման համար համատեքստ չի տրամադրվել"
+
+#. js-lingui-id: ICXANZ
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
+msgid "No conversations"
+msgstr ""
 
 #. js-lingui-id: Zpgvun
 #: src/pages/settings/legal/SettingsLegalDpa.tsx
@@ -16331,6 +16418,18 @@ msgstr "գործողություններ"
 #: src/modules/settings/billing/constants/UsageLimitMeterLabels.ts
 msgid "Operations"
 msgstr "Գործողություններ"
+
+#. js-lingui-id: bjmb99
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+msgid "Opt out of click tracking"
+msgstr ""
+
+#. js-lingui-id: IclqIc
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribersList.tsx
+#: src/pages/settings/communications/SettingsWorkspaceUnsubscribe.tsx
+msgid "Opt-outs"
+msgstr ""
 
 #. js-lingui-id: fgY76O
 #. placeholder {0}: index + 1
@@ -17728,11 +17827,6 @@ msgstr "recipient@example.com"
 msgid "Recipients"
 msgstr "Ստացողներ"
 
-#. js-lingui-id: XNF6El
-#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
-msgid "Recipients can only unsubscribe from everything. Add a public topic to let them choose what they keep receiving."
-msgstr "Ստացողները կարող են միայն ամբողջությամբ հրաժարվել բոլոր հաղորդագրություններից։ Ավելացրեք հանրային թեմա, որպեսզի նրանք կարողանան ընտրել, թե ինչն են ցանկանում շարունակել ստանալ։"
-
 #. js-lingui-id: WEYdDv
 #: src/modules/ai/components/AiChatQuestionCard.tsx
 #: src/modules/settings/admin-panel/components/SettingsAdminChatAskQuestionsQuestion.tsx
@@ -18274,6 +18368,7 @@ msgstr "Վերանվանել"
 
 #. js-lingui-id: 6PsaMr
 #: src/modules/ai/components/AiChatPageThreadHeader.tsx
+#: src/modules/ai/components/AiChatThreadListItem.tsx
 msgid "Rename chat"
 msgstr "Վերանվանել զրույցը"
 
@@ -19035,6 +19130,7 @@ msgstr "SDK"
 #: src/modules/command-menu-item/engine-command/constants/EngineComponentKeyHeadlessComponentMap.tsx
 #: src/modules/navigation/hooks/useMobileNavigationBarItems.ts
 #: src/modules/object-record/record-table-widget/components/RecordTableWidgetRelationPickerDropdownContent.tsx
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
 #: src/modules/settings/components/SettingsMorphRelationMultiSelect.tsx
 #: src/modules/settings/components/SettingsMorphRelationMultiSelect.tsx
 #: src/modules/settings/data-model/fields/forms/address/components/MultiSelectAddressFields.tsx
@@ -19199,6 +19295,11 @@ msgstr "Փնտրեք գույներ..."
 #: src/modules/settings/admin-panel/config-variables/components/ConfigVariableSearchInput.tsx
 msgid "Search config variables"
 msgstr "Որոնել կոնֆիգուրացիոն փոփոխականներում"
+
+#. js-lingui-id: OWm+8o
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
+msgid "Search conversations"
+msgstr ""
 
 #. js-lingui-id: WLfEv1
 #: src/modules/object-record/object-filter-dropdown/components/ObjectFilterDropdownCountrySelect.tsx
@@ -20215,6 +20316,11 @@ msgstr "Օբյեկտի պիտակը փոխելու դեպքում արդյո՞ք
 msgid "Should changing the label also change the API name?"
 msgstr "Պետք է՞ արդյոք պիտակի փոփոխությունը փոխի նաև API անունը։"
 
+#. js-lingui-id: I2DNv8
+#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
+msgid "Show a Conversations tab listing the AI conversations attached to the record, on record pages of new workspaces."
+msgstr ""
+
 #. js-lingui-id: 3MO9Sa
 #: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
 msgid "Show a logs console at the bottom of the app in Advanced mode."
@@ -20563,6 +20669,11 @@ msgstr "Մեր վճարագրման ծառայության հետ կապ հաս�
 #: src/pages/onboarding/WorkspaceActivation.tsx
 msgid "Something went wrong while creating your workspace. Please try again."
 msgstr "Ինչ-որ բան սխալ գնաց ձեր աշխատանքային տարածքը ստեղծելիս։ Խնդրում ենք կրկին փորձել։"
+
+#. js-lingui-id: KzFgLR
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
+msgid "Something went wrong while fetching this record's conversations."
+msgstr ""
 
 #. js-lingui-id: teokEm
 #: src/modules/log-console/components/LogConsoleResults.tsx
@@ -21511,6 +21622,7 @@ msgstr "Տեքստը պատճենվեց սեղմատախտակին"
 
 #. js-lingui-id: YXRaNg
 #: src/modules/advanced-text-editor/components/FormAdvancedTextFieldInput.tsx
+#: src/modules/object-record/record-field/ui/form-types/components/FormRecordRichTextFieldInput.tsx
 msgid "Text Editor"
 msgstr "Տեքստային խմբագիր"
 
@@ -22179,6 +22291,11 @@ msgstr "Այս դերը նշանակված է այս {roleTargetDisplayName}-ն�
 msgid "This role is shared with other users or agents and cannot be edited here."
 msgstr "Այս դերը կիսվում է այլ օգտատերերի կամ գործակալների հետ և չի կարող խմբագրվել այստեղ։"
 
+#. js-lingui-id: Tz032x
+#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
+msgid "This sender records which links you click in its emails. You can opt out for this email address."
+msgstr ""
+
 #. js-lingui-id: IBWuXb
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "This server has an Organization key configured. Make sure you keep a copy of it somewhere safe: you need the same key to activate a development instance or to move your license to a replacement server. If you no longer have access to your key, contact support."
@@ -22586,6 +22703,21 @@ msgstr "Ընդհանուր ժամանակ"
 msgid "Track AI consumption across your workspace."
 msgstr "Հետևեք AI սպառմանը ձեր աշխատատարածքում։"
 
+#. js-lingui-id: tdtdiH
+#: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
+msgid "Track link clicks"
+msgstr ""
+
+#. js-lingui-id: U0HZma
+#: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
+msgid "Tracking"
+msgstr ""
+
+#. js-lingui-id: CVnZXW
+#: src/modules/settings/unsubscribers/utils/getMessageSuppressionReasonBadge.ts
+msgid "Tracking off"
+msgstr ""
+
 #. js-lingui-id: DDziIo
 #: src/modules/page-layout/widgets/call-recording-transcript/components/CallRecordingTranscriptEntryList.tsx
 msgid "Transcript"
@@ -22752,6 +22884,7 @@ msgstr "Ճիշտ"
 #. js-lingui-id: KDw4GX
 #: src/modules/object-record/record-sharing/components/RecordSharingDropdownContent.tsx
 #: src/modules/onboarding/components/upgrade-free-trial/ChooseYourPlanErrorState.tsx
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
 #: src/modules/settings/billing/components/SettingsBillingPlansErrorState.tsx
 msgid "Try again"
 msgstr "Կրկին փորձել"
@@ -23235,7 +23368,6 @@ msgid "Unschedule Campaign"
 msgstr "Չեղարկել արշավի ժամանակացույցը"
 
 #. js-lingui-id: SMaFdc
-#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
 #: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
 #: src/pages/settings/communications/SettingsWorkspaceNewUnsubscribeTopic.tsx
 #: src/pages/settings/communications/SettingsWorkspaceUnsubscribe.tsx
@@ -23281,18 +23413,13 @@ msgstr "Հրաժարվելու թեմաներ"
 msgid "Unsubscribed"
 msgstr "Հրաժարված"
 
-#. js-lingui-id: yxuCkO
-#: src/modules/settings/unsubscribers/components/SettingsUnsubscribersList.tsx
-#: src/pages/settings/communications/SettingsWorkspaceUnsubscribe.tsx
-msgid "Unsubscribers"
-msgstr "Հրաժարվածներ"
-
 #. js-lingui-id: uxfv+n
 #: src/modules/activities/emails/hooks/useUploadEmailImage.ts
 msgid "Unsupported image format"
 msgstr "Չաջակցվող պատկերի ձևաչափ"
 
 #. js-lingui-id: wja8aL
+#: src/modules/ai/components/AiChatThreadListItem.tsx
 #: src/modules/ai/components/ChatReferenceChip.tsx
 #: src/modules/ai/components/ChatReferenceChip.tsx
 #: src/modules/ai/components/internal/AgentChatFilePreview.tsx
@@ -23306,6 +23433,7 @@ msgstr "Չաջակցվող պատկերի ձևաչափ"
 #: src/modules/object-record/record-title-cell/components/RecordTitleCellTextFieldDisplay.tsx
 #: src/modules/object-record/record-title-cell/components/RecordTitleFullNameFieldDisplay.tsx
 #: src/modules/page-layout/hooks/usePageLayoutAddTabStrategy.ts
+#: src/modules/page-layout/widgets/chat-threads/components/WidgetActionChatThreadAttach.tsx
 #: src/modules/settings/admin-panel/chats/components/SettingsAdminChatsTableRow.tsx
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
 #: src/modules/side-panel/components/SidePanelContextChip.tsx
@@ -24497,6 +24625,11 @@ msgstr "Չկարողացանք միանալ փաթեթների ռեգիստրի�
 msgid "We couldn't confirm your payment method. Please retry."
 msgstr "Չհաջողվեց հաստատել ձեր վճարման մեթոդը։ Խնդրում ենք կրկին փորձել։"
 
+#. js-lingui-id: yL484l
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
+msgid "We couldn't load the conversations"
+msgstr ""
+
 #. js-lingui-id: TvNBSn
 #: src/modules/onboarding/components/upgrade-free-trial/ChooseYourPlanErrorState.tsx
 #: src/modules/settings/billing/components/SettingsBillingPlansErrorState.tsx
@@ -25335,11 +25468,6 @@ msgstr "Դուք կվերաուղղորդվեք՝ ավելացնելու ձեր 
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/MatchColumnsStep.tsx
 msgid "You will lose all your mappings."
 msgstr "Դուք կկորցնեք ձեր բոլոր համապատասխանեցումները։"
-
-#. js-lingui-id: gtZrCd
-#: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
-msgid "You will stop receiving these emails."
-msgstr "Դուք կդադարեք ստանալ այս էլ․ նամակները։"
 
 #. js-lingui-id: Cl+hUj
 #: src/modules/settings/domains/components/SettingsSubdomain.tsx
